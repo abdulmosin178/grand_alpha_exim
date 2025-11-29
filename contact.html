@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Grand Alpha Exim</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <img src="logo.png" alt="Grand Alpha Exim Logo" />
+      <div>
+        <h1>Grand Alpha Exim</h1>
+        <p>Exports &amp; Imports</p>
+      </div>
+    </div>
+
+    <nav id="navbar" class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a class="active" href="contact.html">Contact Us</a>
+    </nav>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </div>
+</header>
+
+<section class="inner-hero">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Reach out for export enquiries, pricing and long-term supply contracts.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid-2 contact-grid">
+    <div>
+      <h3>Business Details</h3>
+      <p><strong>Company:</strong> Grand Alpha Exim</p>
+      <p><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
+      <p><strong>Phone:</strong> +91 9XXXXXXXXX</p>
+      <p><strong>Email:</strong> export@grandalphaexim.com</p>
+      <p><strong>Support:</strong> support@grandalphaexim.com</p>
+      <p><strong>Working Hours:</strong> Mon – Sat, 9:00 AM – 8:00 PM (IST)</p>
+      <p>
+        We welcome importers, wholesalers, supermarket chains and traders who
+        are looking for reliable supply of Indian agricultural products.
+      </p>
+    </div>
+
+    <div>
+      <h3>Send Us a Message</h3>
+      <!-- This form is static; to make it work, connect with backend or Formspree -->
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" placeholder="Your Name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="Your Email" required />
+        </label>
+        <label>
+          Country
+          <input type="text" placeholder="Your Country" />
+        </label>
+        <label>
+          Message
+          <textarea rows="4" placeholder="Tell us what products you need, quantity and destination port."></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+        <p class="form-note">.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Grand Alpha Exim. All rights reserved.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/917010726030" class="whatsapp-btn" target="_blank">
+  Chat
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
